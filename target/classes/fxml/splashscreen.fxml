@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import com.jfoenix.controls.JFXSpinner?>
+
+<AnchorPane id="body" prefHeight="400.0" prefWidth="600.0" styleClass="body"  xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alqueriasoftware.controllers.SplashscreenController">
+    <children>
+        <Text fx:id="lblWelcome" fill="WHITE" layoutX="220.0" layoutY="96.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido" wrappingWidth="289.2421875">
+            <font>
+                <Font name="Segoe UI" size="48.0" />
+            </font>
+        </Text>
+        <Label fx:id="lblspinner" styleClass="loader" layoutX="300" layoutY="330.0" text="Loading..." textFill="WHITE">
+            <font>
+                <Font name="Arial Black" size="16.0" />
+            </font>
+        </Label>
+        <VBox fx:id="vboxBottom" layoutX="14.0" layoutY="350.05078125" opacity="0.0" spacing="3.0">
+            <children>
+                <Text fill="WHITE" layoutX="14.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Copyrigth By SoftDev">
+                    <font>
+                        <Font name="Segoe UI" size="12.0" />
+                    </font>
+                </Text>
+                <Text fill="WHITE" layoutX="15.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="From Palmira, Valle - Colombia">
+                    <font>
+                        <Font name="Segoe UI" size="12.0" />
+                    </font>
+                </Text>
+            </children>
+        </VBox>
+        <Label fx:id="lblClose" layoutX="580" layoutY="5.0" text="X" textFill="WHITE">
+            <font>
+                <Font name="Arial Black" size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
