@@ -1,0 +1,19 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.Logo{
+  padding-left: 5em;
+}
+
+.Header-info, .Header-info>div, .Header-info>figure{
+  padding: 0;
+  margin: 0;
+}
+
+.Imglogo{
+  width: 20em;
+  height: 100%;
+
+}
