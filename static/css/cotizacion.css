@@ -1,0 +1,275 @@
+#Body {
+    font-family: 'Open Sans';
+}
+
+html, body, header {
+    height: 100%;
+}
+
+div.navbar.MainMenu {
+    background-color: transparent;
+}
+
+ul.nav>li.nav-item>a.MainMenu-link {
+    text-transform: uppercase;
+}
+
+ul.nav>li.nav-item>a.MainMenu-link:hover {
+    color: #fff;
+    background-color: inherit;
+    font-weight: bold;
+}
+
+ul.nav>li.nav-item>a.Icon-link {
+    font-size: 16px;
+}
+
+ul.nav>li.nav-item>a.Icon-link:hover {
+    background-color: inherit;
+    color: #fff;
+}
+
+/** .top-nav-collapse {
+    background-color: #4285F4;
+} **/
+
+.description {
+    text-align: center;
+    padding-top: 18%;
+    padding-bottom: 3rem;
+    color: #fff;
+}
+        
+.view {
+    width: 100%;
+    background: url('../images/bg-cotizacion.jpg')no-repeat center center fixed;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Social-netContainer {
+    display: inline-block;
+}
+
+.Social-item {
+    display: inline-block;
+}
+
+.Social-link {
+    color: #ddd;
+    font-size: 16px;
+    padding: .8em 1.35em;
+    transition: all .45s ease-in-out;
+}
+
+.Soc-f:hover {
+    background-color: #3b5998;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.Soc-t:hover {
+    background-color: #00aced;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.Soc-g:hover {
+    background-color: #ea4e1b;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.Soc-l:hover {
+    background-color: #007bb6;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.Social-link:focus {
+    color: #fff;
+}
+
+.ContactUs-info {
+    line-height: 1.7em;
+}
+
+.ContactUs-info>p>i {
+    margin-right: 1em;
+}
+
+.FormCoti-container {
+    margin-bottom: 1.5em;
+}
+
+.Coti-form {
+    background-color: #fff;
+    border-radius: 2px;
+    opacity: .7;
+}
+
+.Coti-form:hover {
+    opacity: 1;
+}
+
+.Coti-content{
+    padding: 1.5em;
+    box-sizing: border-box;
+}
+
+div.SelectInput-majorContainer>select {
+    margin-left: 3rem;
+    width: calc(100% - 3rem);
+}
+
+.Select-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    outline: 0;
+    height: 2.1rem;
+    font-size: 1rem;
+    box-sizing: content-box;
+    transition: all .3s;
+    box-shadow: none;
+}
+
+.Select-input:focus {
+    border-bottom: 1px solid #4285F4;
+    box-shadow: 0 1px 0 0 #4285F4;
+}
+
+/** div.SelectInput-majorContainer>select.Select-input:focus label {
+    transform: translateY(-140%);
+    font-size: .8rem;
+} **/
+
+.Select-input>option {
+    width: 100%;
+    font-size: 13px;
+}
+
+.Input-majorContainer {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.Form-button {
+    background: #3f729b;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    padding: 0.8em 2em;
+    font-size: 15px;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    margin: 6px;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+@media only screen and (max-width: 767px) {
+    div.navbar.MainMenu {
+        /** background-color: rgba(6,74,111,.4); **/
+        background-color: #3f729b;
+        opacity: .95;
+    }
+    .navbar-collapse {
+        text-align: center;
+    }
+    .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-toggle .icon-bar{
+        height: 3px;
+    }
+    div.navbar-toggle:hover {
+        transition: all .35s ease-in-out;
+        border: 1px solid rgba(241,221,48,.6);
+    }
+    ul.nav>li.nav-item>a.MainMenu-link:hover {
+        background-color: #fafafa;
+    }
+    .navbar.navbar-dark .navbar-nav .nav-item a.MainMenu-link:hover {
+        color: #064a6f;
+    }
+}
+        
+/** @media (max-width: 767px) {
+    .full-bg-img, .view {
+        height: auto;
+        position: relative;
+        }
+    } **/
+
+@media (min-width: 992px) {
+    .Coti-container {
+        padding-top: 5em;
+        /** padding-bottom: 6.05em;
+        overflow: hidden; **/
+        box-sizing: border-box;
+    }
+    div.full-bg-img, div.view {
+        height: 100%;
+    }
+    .ContactUs-info>p:nth-child(2)>i::before {
+        margin-left: .2em;
+    }
+    .ContactUs-info>p:nth-child(3)>i::before {
+        margin-left: .28em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .full-bg-img, .view {
+        height: auto;
+        position: relative;
+    }
+}
+        
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+        }
+    }
+
+@media screen and (max-width: 597px) {
+    .Input-majorContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    div.md-form>i.prefix {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .md-form .prefix~input, .md-form .prefix~textarea {
+        margin-left: 2rem;
+    }
+    .md-form .prefix~label {
+        margin-left: 2.5rem;
+    }
+    div.SelectInput-majorContainer>select {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .CotiContent-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .CotiInfo-container {
+        order: 1;
+    }
+    .FormCoti-container {
+        order: 2;
+    }
+}
