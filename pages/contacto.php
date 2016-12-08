@@ -58,13 +58,13 @@
                             <a class="nav-link Icon-link" href="https://www.facebook.com/softdevcolombia" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link Icon-link" href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="nav-link Icon-link" href="https://twitter.com/softdevcolombia" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link Icon-link" href="https://www.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                            <a class="nav-link Icon-link" href="https://plus.google.com/u/0/103866878122635071238" target="_blank"><i class="fa fa-google-plus"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link Icon-link" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <a class="nav-link Icon-link" href="https://www.linkedin.com/in/softdevcolombia" target="_blank"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
 
@@ -87,15 +87,15 @@
                                 <div class="Social-netContainer wow fadeInLeft">
                                   <ul class="Social-list wow fadeInLeft">
                                     <li class="Social-item"><a href="https://www.facebook.com/softdevcolombia" target="_blank" class="Social-link Soc-f"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="Social-item"><a href="https://www.twitter.com/" target="_blank" class="Social-link Soc-t"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li class="Social-item"><a href="https://www.google.com/" target="_blank" class="Social-link Soc-g"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                    <li class="Social-item"><a href="https://www.linkedin.com/" target="_blank" class="Social-link Soc-l"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li class="Social-item"><a href="https://twitter.com/softdevcolombia" target="_blank" class="Social-link Soc-t"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li class="Social-item"><a href="https://plus.google.com/u/0/103866878122635071238" target="_blank" class="Social-link Soc-g"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li class="Social-item"><a href="https://www.linkedin.com/in/softdevcolombia" target="_blank" class="Social-link Soc-l"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                   </ul>
                                 </div>
                                 <div class="ContactUs-info wow fadeInLeft">
                                   <p><i class="fa fa-envelope" aria-hidden="true"></i> softdevcorporation@gmail.com</p>
                                   <p><i class="fa fa-phone" aria-hidden="true"></i> 315 429 2549 / 311 622 3445 / 317 235 2111</p>
-                                  <p><i class="fa fa-map-marker" aria-hidden="true"></i> Calle </p>
+                                  <p><i class="fa fa-map-marker" aria-hidden="true"></i> Calle 70 # 26 - 38</p>
                                 </div>
                             </div>
                         </div>
