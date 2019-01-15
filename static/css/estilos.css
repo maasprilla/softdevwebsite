@@ -16,6 +16,10 @@ div.MainMenu-top {
     div.MainMenu-top {
         top: 69px;
     }
+
+    .navbar-toggle {
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -94,7 +98,7 @@ div.MainMenu {
 }
 
 ul.nav>li>a {
-    color: #fafafa;
+    color: black;
     text-transform: uppercase;
     transition: all .25s;
 }
@@ -141,10 +145,10 @@ section.Slider-container>div#myCarousel>ol.carousel-indicators {
 /** SE AGREGA MEDIA QUERIES PARA TAMAÑO Y RESPONSIVE DEL SLIDER **/
 @media screen and (min-width: 768px) {
     .Slider-container>div#myCarousel>.carousel-inner>.item {
-        height: 700px;
+        height: 44em;
     }
     .Slider-container>div#myCarousel>.carousel-inner>.item>img {
-        height: 100% !important;
+        /* height: 100% !important; */
     }
 }
 
@@ -174,9 +178,8 @@ section.Slider-container>div#myCarousel>ol.carousel-indicators {
     font-size: 25px;
     color: #fff;
     /** background-color: #37474F; **/
-    background-color: rgba(6,74,111,0.6);
+    background-color: rgba(155,155,155,0.6);
     padding: .5em 1em;
-    border-radius: 50%;
 }
 
 .ButtonDown-indicator:hover {
@@ -475,7 +478,7 @@ section.Tecnologies-container>div#myCarousel2>div.carousel-inner>div.item>img {
 }
 
 footer.page-footer {
-    background-color: #3f729b;
+    background-color: #1a1a1a;
     margin-top: 0;
 }
 
@@ -504,7 +507,7 @@ footer.page-footer {
 }
 
 .Footer-bottom {
-    background-color: rgba(6,74,111,.6);
+    background-color: #000;
     text-align: center;
     padding: 1em .7em;
 }
@@ -595,7 +598,7 @@ footer.page-footer {
         top: 0;
         opacity: .85;
         transition: all .5s ease-in-out;
-        background-color: #3f729b;
+        background-color: white;
         box-shadow: 0 2px 4px rgba(0,0,0,0.4);
     }
     .affix div.MainMenu {
@@ -637,14 +640,14 @@ footer.page-footer {
     }
     .affix-top ul.nav>li>a:hover {
         transition: .35s;
-        background-color: transparent;
-        color: rgba(255,255,255,.75);
+        background-color: rgba(155,155,155,0.1);
+        color: black;
         /** color: #23527c; **/
         font-weight: 700;
     }
     .affix ul.nav>li>a:hover {
         background: #f6f6f6;
-        color: #064a6f;
+        color: black;
         font-weight: 700;
         transition: all .5s;
     }
@@ -721,4 +724,103 @@ footer.page-footer {
     .Footer-bottom {
         font-size: 13px;
     }
+}
+
+.PreNavBar{
+    background-color: #000;
+    height: 2.5em;
+    color: white;
+    padding: 0 2.5em;
+}
+
+.cross{
+    width: 80px;
+    height: .2em;
+    margin: 25px auto 10px;
+    background-color: #ff0658;
+}
+
+.re_hover{
+    text-align: center;
+}
+
+.des_banner{
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.content_banner{
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.PreNavBar span{
+    vertical-align: -webkit-baseline-middle;
+}
+
+.Session{
+    text-align: center;
+}
+
+.SesionPadreModa{
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+    width: 60%;
+}
+
+.SesionModa{
+    height: 36em;
+    padding: 0.25em 0.25em;
+}
+.SesionModaMin{
+    height: 18em;
+    padding: 0.25em 0.25em;
+}
+
+.SesionModaMin img{
+    border: .3em solid black;
+}
+.SesionModa img{
+    border: .3em solid #ff0658;
+}
+
+
+.ih-item.square{
+    position: unset !important;
+    width: unset !important;
+    height: 100% !important;
+    border: unset !important;
+    box-shadow: unset !important;
+}
+
+.ih-item.square.effect12.right_to_left .info, .ih-item.square.effect12.left_to_right .info{
+    transform: none !important;
+}
+
+.info-text{
+    font-size: 48px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-image: url('../images/footer.png');
+    height: 25em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
